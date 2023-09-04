@@ -42,6 +42,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: normal;
 }
 
+p1 {
+  background-color: rgba(0, 0, 0, 0.3); /* Color de fondo con transparencia */
+  padding: 10px; /* Espacio alrededor del texto */
+  border-radius: 5px; /* Bordes redondeados para un aspecto suave */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra para el efecto ahumado */
+  color: white; /* Color del texto */
+}
+
 p, a, li, button, ul {
   margin: 0;
   padding: 0;
@@ -234,7 +242,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('./assets/img/banner-flowers.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -304,6 +312,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
 }
 .skill-bx {
   background: #151515;
@@ -344,7 +353,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+.project-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
 }
 .project h2 {
 	font-size: 45px;
