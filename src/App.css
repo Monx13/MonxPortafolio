@@ -151,7 +151,7 @@ span.navbar-text {
     transform: scale(1);
 }
 .social-icon a img {
-	width: 40%;
+	width: 95%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
