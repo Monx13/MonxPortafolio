@@ -1,9 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { MailchimpForm } from "./MailchimpForm";
 import logo from "../assets/img/Buho2.png";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import github from '../assets/img/github.png';
+import facebook from '../assets/img/facebook.png';
+import instagram from '../assets/img/logotipo-de-instagram.png';
+import discord from '../assets/img/discordia.png';
 
 export const Footer = () => {
   return (
@@ -16,9 +17,10 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+            <a href="https://github.com/Monx13" target="_blank"><img src={github} alt="" /></a>
+                <a href="https://www.facebook.com/vazmonserrat13" target="_blank"><img src={facebook} alt="" /></a>
+                <a href="https://www.instagram.com/_monx13_" target="_blank"><img src={instagram} alt="" /></a>
+                <a href="https://discord.gg/YyVJtMbK" target="_blank"><img src={discord} alt="" /></a>
             </div>
             <p>Thank you for attention</p>
           </Col>
