@@ -65,7 +65,7 @@ export const Skills = () => {
                         </Carousel>
                         <p></p>
                         <h2>Soft Skills</h2>
-                        <p>I have learned different programming languages ​​so far and as far as my skills are concerned<br></br></p>
+                        <p>Soft skills are personal and social skills that are not necessarily related to technical knowledge or specific job skills, but are essential for success in the workplace and in life in general.<br></br></p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter6} alt="Image" />
