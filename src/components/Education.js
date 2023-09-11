@@ -41,7 +41,7 @@ export const Education = () => {
   };
 
   return (
-    <section className="study" id="studies">
+    <section className="study" id="education">
         <div className="container">
             <div className="row">
                 <div className="col-12">
