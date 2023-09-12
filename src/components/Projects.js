@@ -9,35 +9,41 @@ import projImg6 from "../assets/img/12345.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import documentOne from '../assets/documents/ORDINARIO.pdf'
+import documentTwo from '../assets/documents/Practica_2.pdf'
+import documentThree from '../assets/documents/PROYECTO_FINAL_814-B.pdf'
+import documentFour from '../assets/documents/Restauracion_del_robot_manipulador_SCARA.pdf'
+import documentFive from '../assets/documents/CV-Adamari-Lopez.pdf'
 
 export const Projects = () => {
 
   const projects = [
     {
       
-      description: "Design & Development",
+      description: "Diseño de un robot manipulador móvil organizador de paquetería",
       imgUrl: projImg1,
+      document: documentOne
     },
     {
-      description: "Design & Development",
+      description: "Propuesta de Circuitos Hidráulicos",
       imgUrl: projImg2,
+      document: documentTwo
     },
     {
-      description: "Design & Development",
+      description: "“Automatización del proceso de mezclado y vertido de cemento",
       imgUrl: projImg3,
+      document: documentThree
     },
     {
-      description: "Design & Development",
+      description: "Restauración del robot manipulador SCARA",
       imgUrl: projImg4,
+      document: documentFour
     },
     {
-      description: "Design & Development",
+      description: "CV",
       imgUrl: projImg5,
-    },
-    {
-      description: "Design & Development",
-      imgUrl: projImg6,
-    },
+      document: documentFive
+    }
   ];
 
   return (
@@ -88,7 +94,7 @@ export const Projects = () => {
                 </Tab.Container>
               </div>}
             </TrackVisibility>
-            </div>s
+            </div>
           </Col>
         </Row>
       </Container>

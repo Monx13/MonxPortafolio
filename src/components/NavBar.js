@@ -8,7 +8,7 @@ import discord from '../assets/img/discordia.png';
 import descarga from '../assets/img/descargar.png';
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router} from "react-router-dom";
-import documentPDF from '../assets/documents/Monx.pdf'; 
+import documentPDF from '../assets/documents/CV-Adamari-Lopez.pdf'; 
 
 export const NavBar = () => {
 
