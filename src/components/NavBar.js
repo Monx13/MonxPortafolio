@@ -8,6 +8,7 @@ import discord from '../assets/img/discordia.png';
 import descarga from '../assets/img/descargar.png';
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router} from "react-router-dom";
+import documentPDF from '../assets/documents/Monx.pdf'; 
 
 export const NavBar = () => {
 
@@ -55,7 +56,7 @@ export const NavBar = () => {
                 <a href="https://www.facebook.com/vazmonserrat13" target="_blank"><img src={facebook} alt="" /></a>
                 <a href="https://www.instagram.com/_monx13_" target="_blank"><img src={instagram} alt="" /></a>
                 <a href="https://discord.gg/YyVJtMbK" target="_blank"><img src={discord} alt="" /></a>
-                <a href="../assets/documents/CV-Adamari-Lopez.pdf" download><img src={descarga} alt="" /></a>
+                <a href={documentPDF} download><img src={descarga} alt="" /></a>
               </div>
             </span>
           </Navbar.Collapse>
