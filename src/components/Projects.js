@@ -9,11 +9,13 @@ import projImg6 from "../assets/img/12345.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import documentOne from '../assets/documents/ORDINARIO.pdf'
-import documentTwo from '../assets/documents/Practica_2.pdf'
-import documentThree from '../assets/documents/PROYECTO_FINAL_814-B.pdf'
-import documentFour from '../assets/documents/Restauracion_del_robot_manipulador_SCARA.pdf'
-import documentFive from '../assets/documents/CV-Adamari-Lopez.pdf'
+import docOne from '../assets/documents/ORDINARIO.pdf'
+import docTwo from '../assets/documents/Practica_2.pdf'
+import docThree from '../assets/documents/PROYECTO_FINAL_814-B.pdf'
+import docFour from '../assets/documents/Restauracion_del_robot_manipulador_SCARA.pdf'
+import docFive from '../assets/documents/organized-1.pdf'
+import docSix from '../assets/documents/organized-2.pdf'
+
 
 export const Projects = () => {
 
@@ -22,27 +24,32 @@ export const Projects = () => {
       
       description: "Diseño de un robot manipulador móvil organizador de paquetería",
       imgUrl: projImg1,
-      document: documentOne
+      document: docOne
     },
     {
       description: "Propuesta de Circuitos Hidráulicos",
       imgUrl: projImg2,
-      document: documentTwo
+      document: docTwo
     },
     {
-      description: "“Automatización del proceso de mezclado y vertido de cemento",
+      description: "Automatización del proceso de mezclado y vertido de cemento",
       imgUrl: projImg3,
-      document: documentThree
+      document: docThree
     },
     {
       description: "Restauración del robot manipulador SCARA",
       imgUrl: projImg4,
-      document: documentFour
+      document: docFour
     },
     {
-      description: "CV",
+      description: "Equipo lúdico funcional para esparcimiento en ambiente de confinamiento",
       imgUrl: projImg5,
-      document: documentFive
+      document: docFive
+    },
+    {
+      description: "Mesa de Concreto",
+      imgUrl: projImg6,
+      document: docSix
     }
   ];
 
